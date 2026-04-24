@@ -125,3 +125,6 @@ utun7: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
 	inet6 fe80::9a9e:eb2b:9c7b:6ee7%utun7 prefixlen 64 scopeid 0x19 
 	nd6 options=201<PERFORMNUD,DAD>
 Hora: Thu Apr 23 11:16:26 -03 2026
+Nombre: Juan Moyano
+IP: 10.0.6.134
+Hora: Fri Apr 24 10:09:08     2026
