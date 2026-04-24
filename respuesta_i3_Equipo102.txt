@@ -1,3 +1,45 @@
+BETA:
+
+1) El máster queda como la rama principal consolidada que contiene el historial unificado de todo el 
+equipo.
+
+Incluye el README.md, el archivo datos.txt con la información de los tres integrantes,
+los tres archivos de hardware (CPUAlfa.txt, CPUBeta.txt, CPUGamma.txt) y 
+el archivo beta.txt con las ediciones de todo el grupo.
+
+2) Sí. Al realizar los merges hacia la rama principal, BETA tiene visibilidad de los commits
+ealizados por ALFA y GAMMA.
+
+3) Se usaron estos comandos para realizar el punto 5:
+
+git checkout main: Para posicionarte en la rama principal (o master) donde querías recibir los 
+cambios.
+
+git merge Moyano: Para fusionar la rama de GAMMA (que en tu caso se llamaba "Moyano") hacia la
+ rama principal.
+ 
+git push origin main: Para subir el resultado de esa fusión al servidor de GitHub y que sea 
+visible para el resto del equipo.
+
+GAMMA:
+d) No. Las ramas creadas por BETA y GAMMA no quedan con datos actualizados automáticamente.
+Cada rama conserva únicamente los cambios realizados en ella. Para ver los cambios de otras
+ramas hay que hacer un merge o un pull explícito.
+
+e) El principal problema al hacer el merge fue que varios colaboradores modificaron el mismo
+archivo (beta.txt) en la misma rama. Esto generó conflictos que Git no pudo resolver
+automáticamente, ya que no sabe qué cambios conservar cuando dos personas editan las mismas
+líneas. Fue necesario resolver los conflictos manualmente.
+
+f) Comandos utilizados en el punto 7:
+git fetch origin
+git checkout olivero
+git pull origin olivero
+(editar beta.txt agregando nombre, ifconfig y hora)
+git add beta.txt
+git commit -m "GAMMA: agrego mis datos en beta.txt"
+git push origin olivero
+
 Alfa:
 
 G: Uso git checkout master para ir al master, y despues vuelvo usar git checkout olivero para ir a la rama de beta. Despues hago un nano para modificar beta.txt y agregar mi nombre, apellido y hora. Despues hago un ifconfig >> beta.txt en el WSL de windows para que agrege la informacion el ifconfig al archivo y que no sobreescriba nada.
