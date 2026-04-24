@@ -1,0 +1,3 @@
+Alfa:
+
+G: Uso git checkout master para ir al master, y despues vuelvo usar git checkout olivero para ir a la rama de beta. Despues hago un nano para modificar beta.txt y agregar mi nombre, apellido y hora. Despues hago un ifconfig >> beta.txt en el WSL de windows para que agrege la informacion el ifconfig al archivo y que no sobreescriba nada.
