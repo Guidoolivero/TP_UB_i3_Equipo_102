@@ -1,0 +1,22 @@
+BETA:
+
+1) El máster queda como la rama principal consolidada que contiene el historial unificado de todo el 
+equipo.
+
+Incluye el README.md, el archivo datos.txt con la información de los tres integrantes,
+los tres archivos de hardware (CPUAlfa.txt, CPUBeta.txt, CPUGamma.txt) y 
+el archivo beta.txt con las ediciones de todo el grupo.
+
+2) Sí. Al realizar los merges hacia la rama principal, BETA tiene visibilidad de los commits
+ealizados por ALFA y GAMMA.
+
+3) Se usaron estos comandos para realizar el punto 5:
+
+git checkout main: Para posicionarte en la rama principal (o master) donde querías recibir los 
+cambios.
+
+git merge Moyano: Para fusionar la rama de GAMMA (que en tu caso se llamaba "Moyano") hacia la
+ rama principal.
+ 
+git push origin main: Para subir el resultado de esa fusión al servidor de GitHub y que sea 
+visible para el resto del equipo.
