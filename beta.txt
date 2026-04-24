@@ -126,5 +126,77 @@ utun7: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
 	nd6 options=201<PERFORMNUD,DAD>
 Hora: Thu Apr 23 11:16:26 -03 2026
 Nombre: Juan Moyano
-IP: 10.0.6.134
-Hora: Fri Apr 24 10:09:08     2026
+
+Configuracion IP de Windows
+
+
+Adaptador de Ethernet Ethernet 4:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+
+Adaptador desconocido McAfee VPN:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+
+Adaptador de LAN inal mbrica Local Area Connection* 1:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+
+Adaptador de LAN inal mbrica Local Area Connection* 2:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+
+Adaptador de Ethernet VMware Network Adapter VMnet1:
+
+   Sufijo DNS espec fico para la conexi n. . : 
+   V nculo: direcci n IPv6 local. . . : fe80::54ba:4a02:fe34:ed65%9
+   Direcci n IPv4. . . . . . . . . . . . . . : 192.168.252.1
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+
+Adaptador de Ethernet VMware Network Adapter VMnet8:
+
+   Sufijo DNS espec fico para la conexi n. . : 
+   V nculo: direcci n IPv6 local. . . : fe80::afab:7e61:830d:9cb9%5
+   Direcci n IPv4. . . . . . . . . . . . . . : 192.168.28.1
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+
+Adaptador de LAN inal mbrica Wi-Fi:
+
+   Sufijo DNS espec fico para la conexi n. . : 
+   V nculo: direcci n IPv6 local. . . : fe80::c99b:c1da:a734:1523%16
+   Direcci n IPv4. . . . . . . . . . . . . . : 192.168.1.93
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.1.1
+
+Adaptador de Ethernet Bluetooth Network Connection:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+Hora: Fri Apr 24 16:43:52     2026
+
+Nombre: Valentino Gorosito
+Hora: 16:53:57
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.25.169.242  netmask 255.255.240.0  broadcast 172.25.175.255
+        inet6 fe80::215:5dff:fe1f:bd47  prefixlen 64  scopeid 0x20<link>
+        ether 00:15:5d:1f:bd:47  txqueuelen 1000  (Ethernet)
+        RX packets 293  bytes 254305 (254.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 188  bytes 15108 (15.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 26  bytes 3652 (3.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 26  bytes 3652 (3.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
